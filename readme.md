@@ -13,10 +13,11 @@ python charvideo.py E:/badapple.flv --width 180 --heigh 70
 ```bash
 charvideo.py [-h] [--width WIDTH] [--height HEIGHT] [--gap GAP] file
 ```
-`--width`是每行显示的字符数量 
-`--height`是行数 
-这两个参数取决于你控制台的尺寸 
-`--gap`是帧间隔，默认是1，每帧都会打印 
+`--width`是每行显示的字符数量   
+`--height`是行数  
+这两个参数取决于你控制台的尺寸  
+`--gap`是帧间隔，默认是1，每帧都会打印  
+这三个都是可选参数
 
 ### 依赖的环境
 安装cv2库
