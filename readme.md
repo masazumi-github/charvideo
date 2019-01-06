@@ -1,3 +1,10 @@
+### 介绍
+将视频以字符画的形式在控制台播放
+![screenshot1](screenshot/1.png) 
+![screenshot2](screenshot/2.png) 
+![screenshot3](screenshot/3.png) 
+![screenshot4](screenshot/4.png)
+
 ### 使用例
 ```bash
 python charvideo.py E:/badapple.flv --width 180 --heigh 70
@@ -23,6 +30,7 @@ pip3 install opencv-python
 ### 另外的一些思路
 抓取图片并保存，但是图片的效果并不好
 ```python
+# x, y, width, height
 ImageGrab.grab(bbox=(0,0,1455,1035)).save( 'img.jpg' )
 ```
 
